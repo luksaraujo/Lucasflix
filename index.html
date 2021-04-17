@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style/main.css">
+
+        <!-- OWL CSS -->
+        <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+        <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+        <!------------->
+
+        <!-- Adiciona o arquivo de estilo responsável pela responsividade do site -->
+        <link rel="stylesheet" href="style/responsive.css">
+
+        <title>LUCASFLIX</title>
+    </head>
+
+    <body>
+
+        <!-- Cria o cabeçalho da página -->
+        <header>
+
+            <!-- Cria a div contêiner que armazenará o cabeçalho -->
+            <div class="container">
+
+                <!-- Cria o título da página -->
+                <h2 class="logo">LUCASFLIX</h2>
+                
+                <!-- Tag destinada para a criação de menus -->
+                <nav>
+                    <!-- Cria os itens do menu -->
+                    <a href="#">Inicio</a>
+                    <a href="#">Séries</a>
+                    <a href="#">Filmes</a>
+                    <a href="#">Documentários</a>
+                </nav>
+            </div>
+
+        </header>
+
+        <!-- Cria o miolo do site -->
+        <main>
+
+             <!-- Cria a DIV que armazenará o conteúdo onde ficará o filme principal -->
+            <div class="filme-principal">
+
+                <!-- Cria a DIV que será a wrapper / container e armazenará todo o conteúdo -->
+                <div class="container">
+
+                    <!-- Cria o elemento H3 que mostra o título do filme -->
+                    <h3 class="titulo">HOUSE OF CARDS</h3>
+
+                    <!-- Cria o parágrafo que irá descrever a sinopse da série -->
+                    <p class="descricao">Um político inescrupuloso não mede esforços para conquistar o poder nos EUA neste drama vencedor do Emmy e do Globo de Ouro.</p>
+                
+                    <!-- Cria a DIV responsável por armazenar os botões -->
+                    <div class="botoes">
+                        
+                        <!-- Cria o botão que permite assistir o filme principal -->
+                        <button class="botao" role="button">
+                            <i class="fas fa-play"></i> <!-- Insere o ícone de play -->
+                            ASSISTIR AGORA <!-- Escreve isso dentro do botão -->
+                        </button>
+
+                        <!-- Cria o botão que exibe mais informações sobre a série principal -->
+                        <button class="botao" role="button">
+                            <i class="fas fa-info-circle"></i> <!-- Insere o ícone de informações -->
+                            MAIS INFORMAÇÕES <!-- Escreve isso dentro do botão -->
+                        </button>
+                    </div>
+                </div>
+
+               
+            </div>
+        </main>
+
+        <div class="carrosel-filmes"> <!-- Cria o Wrapper / Container do carrosel de filmes -->
+            <div class="owl-carousel owl-theme"> <!-- Chama o carousel do Owl Carousel -->
+                <div class="item"> <!-- Faz referência a um item que é o filme ou série. -->
+                    <img class="box-filme" src="img/mini1.jpg" alt="Capa do filme Vingadores."> <!-- Insere a imagem referente ao título -->
+                </div>
+                <div class="item"> <!-- Faz referência a um item que é o filme ou série. -->
+                    <img class="box-filme" src="img/mini2.jpg" alt="Capa da série Stranger Things."> <!-- Insere a imagem referente ao título -->
+                </div>
+                <div class="item"> <!-- Faz referência a um item que é o filme ou série. -->
+                    <img class="box-filme" src="img/mini3.jpg" alt="Capa da série La Casa de Papel."> <!-- Insere a imagem referente ao título -->
+                </div>
+                <div class="item"> <!-- Faz referência a um item que é o filme ou série. -->
+                    <img class="box-filme" src="img/mini4.jpg" alt="Capa do filme Tom & Jerry."> <!-- Insere a imagem referente ao título -->
+                </div>
+                <div class="item"> <!-- Faz referência a um item que é o filme ou série. -->
+                    <img class="box-filme" src="img/mini5.jpg" alt="Capa do filme Pokémon 2000."> <!-- Insere a imagem referente ao título -->
+                </div>
+                <div class="item"> <!-- Faz referência a um item que é o filme ou série. -->
+                    <img class="box-filme" src="img/mini6.jpg" alt="Capa da série Os Simpsons."> <!-- Insere a imagem referente ao título -->
+                </div>
+                <div class="item"> <!-- Faz referência a um item que é o filme ou série. -->
+                    <img class="box-filme" src="img/mini7.jpg" alt="Capa da série Brilhante Victória."> <!-- Insere a imagem referente ao título -->
+                </div>
+                <div class="item"> <!-- Faz referência a um item que é o filme ou série. -->
+                    <img class="box-filme" src="img/mini8.jpg" alt="Capa da série Sobrenatural."> <!-- Insere a imagem referente ao título -->
+                </div>
+            </div>
+        </div>
+
+        <!-- Referencia e adiciona os ícones do Font Awesome ao código -->
+        <script src="https://kit.fontawesome.com/4ebc9bcbd5.js" crossorigin="anonymous"></script>
+
+        <!-- SCRIPT OWL -->
+        <script src="js/owl/jquery.min.js"></script> <!-- Linka o jQuerry ao código para o funcionamento do OWL Carousel -->
+        <script src="js/owl/owl.carousel.min.js"></script> <!-- Linka o Owl Carousel -->
+        <script src="js/main.js"></script> <!-- Adiciona o script que é responsável pela configuração do carousel -->
+        <!----------------->
+    </body>
+</html>
